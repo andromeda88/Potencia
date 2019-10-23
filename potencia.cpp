@@ -23,11 +23,10 @@ double Potencia(int n, int e) {
 
 int main() {
 int n,e;
-
 cout<<"Introduzca el número al cual quiere calcular la potencia"<<endl;
 cin>>n;
 cout<<"Introduzca el valor de la potencia"<<endl;
 cin>>e;
 cout<<"La potencia "<< e <<" de "<< n <<" es "<<Potencia(n,e)<<endl;
-
+return 0;
 };
